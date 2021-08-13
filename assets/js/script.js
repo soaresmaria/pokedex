@@ -20,7 +20,7 @@ function history(){
     pokeHistoryEl.empty();
 
     // render everything from local storage to the screen
-    for ( var i = 0; i < pokeHistory.length; i++){
+    for ( var i = 0; i < history.length; i++){
         var li = $("<li>").text(pokeHistory[i]);
         pokeHistoryEl.append(li).addClass("")
     }
